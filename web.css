@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Josefin+Sans:ital,wght@0,100;0,300;0,500;1,300;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+}
+
+header{
+    padding-top: 10px;
+    background: white;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+    margin-left: left 70px;
+}
+a.logo-home{
+    float: left;
+    padding-top: 24px;
+    font-weight: 600;
+}
+
+.main-nav{
+    float: right;
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: left 70px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 24px;
+    position: relative;
+}
+
+.main-nav a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-nav a:hover{
+    color:blue;
+}
+.main-nav a::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color:blue;
+    position: absolute;
+    top:0;
+    width: 0%;
+    transition: all ease-in-out .25s;
+}
+
+.main-nav a:hover::before{
+    width: 100%;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color:#c6d5f3;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 4%;
+}
+
+.CTA{
+    color: white;
+}
+
+.welcome{
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: 24px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.font{
+    margin-top: 100px;
+}
+
+.img{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+h1{
+   font-size: 64px;
+   color:rgb(91, 109, 227);
+   margin-bottom: 0%;
+}
+
+.hero p{
+    font-size: 24px;
+}
+.footer{
+    width: 80%;
+    padding-top: 50px;
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    font-size: 1rem;
+}
+a .logo-home{
+    float: left;
+    padding-top: 24px;
+    font-weight: 600;
+    color:rgb(59, 59, 252);
+}
+.logo-home img{
+    padding-top: 0;
+    padding-bottom: 24px;
+}
+
+
+.contact ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding-inline-start:0;
+}
+.contact a{
+    color: rgb(17, 16, 40);
+}
+.contact a:hover{
+    color:blue;
+}
+p.copyright{
+    text-align: right;
+    font-size: 0.5rem;
+}
