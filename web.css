@@ -97,7 +97,17 @@ section{
 
 
 .CTA{
-    color: white;
+    color:rgb(91, 109, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+}
+
+.cta-btn {
+    color:rgb(91, 109, 227);
+    cursor: pointer;
+    width: 230px;
 }
 
 .welcome{
